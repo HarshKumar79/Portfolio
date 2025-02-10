@@ -1,0 +1,71 @@
+.navbar {
+    background-color: var(--card-bg);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .navLink {
+    color: var(--text-color);
+    font-weight: 500;
+    transition: var(--transition);
+  }
+  
+  .navLink:hover {
+    color: var(--accent-color);
+  }
+  
+  .menuButton {
+    display: none;
+    font-size: 1.5rem;
+    color: var(--text-color);
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    .navLinks {
+      position: fixed;
+      top: 60px;
+      right: -100%;
+      flex-direction: column;
+      background-color: var(--card-bg);
+      width: 100%;
+      padding: 2rem;
+      transition: var(--transition);
+      box-shadow: var(--box-shadow);
+    }
+  
+    .navLinks.active {
+      right: 0;
+    }
+  
+    .menuButton {
+      display: block;
+    }
+  }
