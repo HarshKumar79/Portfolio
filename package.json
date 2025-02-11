@@ -14,7 +14,8 @@
     "react-icons": "^5.4.0",
     "react-intersection-observer": "^9.15.1",
     "react-parallax-tilt": "^1.7.282",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
