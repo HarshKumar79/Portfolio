@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import ContactForm from '../components/ContactForm';
 import styles from './Contact.module.css';
-import { FiMail, FiGithub, FiLinkedin } from 'react-icons/fi';
 
 const Contact = () => {
   return (
