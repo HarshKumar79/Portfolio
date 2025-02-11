@@ -22,12 +22,12 @@ const SocialLinks = () => {
       url: 'mailto:harsh751883@gmail.com',
       label: 'Send Email'
     },
-    {
-      id: 4,
-      icon: <FiInstagram />,
-      url: 'https://www.instagram.com/harshkumar8978/',
-      label: 'Instagram Profile'
-    }
+    // {
+    //   id: 4,
+    //   icon: <FiInstagram />,
+    //   url: 'https://www.instagram.com/harshkumar8978/',
+    //   label: 'Instagram Profile'
+    // }
   ];
 
   return (
