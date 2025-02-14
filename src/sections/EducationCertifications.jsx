@@ -97,7 +97,7 @@ const EducationCertifications = () => {
             whileTap={{ scale: 0.95 }}
             onClick={() => {
                 const link = document.createElement('a');
-                link.href = 'https://drive.google.com/file/d/1ytXjWLXIR_-goY3oAsMkKHtO3ErCOtp_/view?usp=sharing'; // Update with the correct file path
+                link.href = 'https://drive.google.com/file/d/1WyfT_w8nnSsotmBa1eVPzC2RH6a4SJ86/view?usp=sharing'; // Update with the correct file path
                 link.download = 'Harsh_Kumar_Resume.pdf';
                 document.body.appendChild(link);
                 link.click();
