@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import styles from './Hero.module.css';
 
 const Hero = () => {
-  const texts = ["Harsh Kumar", "Full Stack Developer", "Software Developer","Python Developer"];
+  const texts = ["Full Stack Developer", "Software Developer","Python Developer"];
   const [displayedText, setDisplayedText] = useState("");
   const [textIndex, setTextIndex] = useState(0);
   const [cursorVisible, setCursorVisible] = useState(true);
@@ -53,7 +53,7 @@ const Hero = () => {
         {/* Profile Photo */}
         <div className={styles.profilePhotoContainer}>
           <img
-            src="https://drive.google.com/file/d/1x9mzA1yEeiz016n3KrazQENCK6B6MmZq/view" // Replace with your profile photo path
+            src="https://drive.google.com/file/d/1x9mzA1yEeiz016n3KrazQENCK6B6MmZq/view?usp=sharing" // Replace with your profile photo path
             alt="Harsh Kumar"
             className={styles.profilePhoto}
           />
