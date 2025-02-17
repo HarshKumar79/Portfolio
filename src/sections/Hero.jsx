@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import styles from './Hero.module.css';
+import my_img from '../assets/images/my_img.jpg';
 
 const Hero = () => {
   const texts = ["Full Stack Developer", "Software Developer","Python Developer"];
@@ -53,7 +54,7 @@ const Hero = () => {
         {/* Profile Photo */}
         <div className={styles.profilePhotoContainer}>
           <img
-            src="https://drive.google.com/file/d/1x9mzA1yEeiz016n3KrazQENCK6B6MmZq/view?usp=sharing" // Replace with your profile photo path
+            src={my_img} // Replace with your profile photo path
             alt="Harsh Kumar"
             className={styles.profilePhoto}
           />
