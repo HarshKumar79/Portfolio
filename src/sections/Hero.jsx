@@ -52,13 +52,13 @@ const Hero = () => {
       >
 
         {/* Profile Photo */}
-        <div className={styles.profilePhotoContainer}>
+        {/* <div className={styles.profilePhotoContainer}>
           <img
             src={my_img} // Replace with your profile photo path
             alt="Harsh Kumar"
             className={styles.profilePhoto}
           />
-        </div>
+        </div> */}
 
         {/* Name */}
         <h1 className={styles.name}>Harsh Kumar</h1>
@@ -66,7 +66,7 @@ const Hero = () => {
 
         <h1 className={styles.title}>
           Hi, I'm{' '}
-          <span className={styles.name}>
+          <span className={styles.title}>
             {displayedText}
             <span className={`${styles.cursor} ${cursorVisible ? styles.visible : ''}`}>
               |
