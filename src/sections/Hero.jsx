@@ -49,6 +49,20 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
+
+        {/* Profile Photo */}
+        <div className={styles.profilePhotoContainer}>
+          <img
+            src="https://drive.google.com/file/d/1x9mzA1yEeiz016n3KrazQENCK6B6MmZq/view" // Replace with your profile photo path
+            alt="Harsh Kumar"
+            className={styles.profilePhoto}
+          />
+        </div>
+
+        {/* Name */}
+        <h1 className={styles.name}>Harsh Kumar</h1>
+
+
         <h1 className={styles.title}>
           Hi, I'm{' '}
           <span className={styles.name}>
@@ -58,6 +72,14 @@ const Hero = () => {
             </span>
           </span>
         </h1>
+
+        <p className={styles.summary}>
+          Computer Science student specializing in AI & ML with expertise in Python, C++, JavaScript,
+          and React.js. Developed full-stack applications using Django, Flask, and Node.js, with a focus
+          on optimizing performance and user experience. Strong problem-solving skills with 150+
+          solved LeetCode challenges. Collaborative team player passionate about scalable web
+          solutions.
+        </p>
       </motion.div>
     </section>
   );
