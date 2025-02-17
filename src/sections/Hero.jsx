@@ -64,7 +64,7 @@ const Hero = () => {
         <h1 className={styles.name}>Harsh Kumar</h1>
 
 
-        <h1 className={styles.title}>
+        <h1 className={styles.hi}>
           Hi, I'm{' '}
           <span className={styles.title}>
             {displayedText}
