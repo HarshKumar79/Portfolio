@@ -39,6 +39,7 @@
   margin-bottom: 1.5rem;
   line-height: 1.2;
   font-weight: 700;
+  color: #ff474c;
 }
 
 .typingText {
@@ -101,11 +102,11 @@
   }
 
   .title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .name {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .subtitle {
