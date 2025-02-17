@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import styles from './Hero.module.css';
-import my_img from '../assets/images/my_img.jpg';
+
 
 const Hero = () => {
   const texts = ["Full Stack Developer", "Software Developer","Python Developer"];
