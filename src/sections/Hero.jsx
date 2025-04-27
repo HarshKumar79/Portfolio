@@ -2,8 +2,9 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import styles from './Hero.module.css';
 
+
 const Hero = () => {
-  const texts = ["Harsh Kumar", "Full Stack Developer", "Software Developer","Python Developer"];
+  const texts = ["Full Stack Developer", "Software Developer","Python Developer"];
   const [displayedText, setDisplayedText] = useState("");
   const [textIndex, setTextIndex] = useState(0);
   const [cursorVisible, setCursorVisible] = useState(true);
@@ -49,15 +50,37 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className={styles.title}>
+
+        {/* Profile Photo */}
+        {/* <div className={styles.profilePhotoContainer}>
+          <img
+            src={my_img} // Replace with your profile photo path
+            alt="Harsh Kumar"
+            className={styles.profilePhoto}
+          />
+        </div> */}
+
+        {/* Name */}
+        <h1 className={styles.name}>Harsh Kumar</h1>
+
+
+        <h1 className={styles.hi}>
           Hi, I'm{' '}
-          <span className={styles.name}>
+          <span className={styles.title}>
             {displayedText}
             <span className={`${styles.cursor} ${cursorVisible ? styles.visible : ''}`}>
               |
             </span>
           </span>
         </h1>
+
+        <p className={styles.summary}>
+          Computer Science student specializing in AI & ML with expertise in Python, C++, JavaScript,
+          and React.js. Developed full-stack applications using Django, Flask, and Node.js, with a focus
+          on optimizing performance and user experience. Strong problem-solving skills with 150+
+          solved LeetCode challenges. Collaborative team player passionate about scalable web
+          solutions.
+        </p>
       </motion.div>
     </section>
   );
